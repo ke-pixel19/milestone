@@ -1,0 +1,132 @@
+/***** BASE STYLES *****/
+body {
+	width: auto;
+  margin-left: 256px;
+	text-transform: uppercase;
+  /**nt-family: 'Source Serif Pro', serif;**/
+	font-family: 'Cutive', serif;
+  background-color: #AAE3D1;
+}
+
+.sentence-1 {
+	font-size: 41px;
+	margin-bottom: -51px;
+}
+
+.sentence-2 {
+	font-size: 26px;
+	margin-top: -30px;
+}
+
+.sentence-3 {
+	font-size: 29px;
+	margin-top: -35px;
+}
+
+.sentence-4 {
+	font-size: 130px;
+	float: right;
+	margin: -318px 207px -170px 0px;
+}
+
+.sentence-5{
+	font-size: 27px;
+	margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.sentence-6 {
+	font-size: 32px;
+	margin-top: -41px;
+
+}
+.sentence-6 span {
+	font-size: 21px;
+}
+.sentence-7 {
+	font-size: 21px;
+	margin-top: -36px;
+}
+.sentence-7a {
+	font-size: 24px;
+	margin-top: -26px;
+}
+
+.sentence-8 {
+	font-size: 27px;
+	margin-top: -31px;
+}
+.sentence-9 {
+	font-size: 37px;
+	font-weight: bold;
+	margin-top: -43px;
+}
+.sentence-10 {
+	font-size: 25px;
+	margin-top: -41px;
+}
+
+.sentence-11 {
+	font-size: 38px;
+	margin-top: -39px;
+}
+
+.sentence-12 {
+	font-size: 18px;
+	float: right;
+	margin:-150px 223px 86px 0px;
+}
+
+.sentence-13 {
+	font-size: 20px;
+	float: right;
+	margin: -122px 228px 51px 0px;
+}
+
+.sentence-14 {
+	font-size: 27px;
+	float: right;
+	margin: -103px 285px 7px 0px;
+}
+
+.sentence-15 {
+	font-size: 20px;
+	margin-top: -33px;
+}
+
+.sentence-16 {
+	font-size: 22px;
+	margin-top: -19px;
+}
+.sentence-17 {
+	font-size: 20px;
+	margin-top: -19px;
+}
+.sentence-18 {
+	font-size: 23px;
+	margin-top: -23px;
+}
+.sentence-19 {
+	font-size: 31px;
+	margin-top: -34px;
+}
+.sentence-20 {
+	font-size: 16px;
+	margin-top: -33px;
+}
+.sentence-21 {
+	font-size: 27px;
+	margin-top: -37px;
+}
+.sentence-21 span {
+	font-size: 40px;
+}
+.sentence-22 {
+	font-size: 21px;
+	margin-top: -33px;
+}
+.sentence-23 {
+	font-size: 25px;
+	margin: -25px 210px -40px 0px;
+	font-weight: bold;
+}

@@ -1,0 +1,165 @@
+/***** BASE STYLES *****/
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  color:#00000;
+  width:1200px;
+}
+
+@font-face {
+  font-family: 'Wisdom Script Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: url('../fonts/Wisdom Script AJ.woff')
+  format('woff');
+}
+/***** GRID *****/
+
+.full-width {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.half-width {
+  width: 600px;
+  float: left;
+}
+
+.third-width {
+  width: 368px;
+  float: left;
+}
+/***** HEADER *****/
+
+header {
+  height: 100px;
+  padding: 25px 0px 0px 0px;
+  margin: 0 25px 0 30px;
+}
+
+header h1 {
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+header h1 span {
+  color: #77a466;
+}
+
+nav {
+  float: right;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+  nav ul li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+  padding-left: 20px;
+  color: #77a466;
+}
+/***** TOP *****/
+.image {
+  width: 1200px;
+  margin-left: 30px;
+  overflow: hidden;
+  border-top: 4px solid #77a466;
+  border-bottom: 4px solid #77a466;
+  padding-top: 5px;
+}
+
+#about .full-width {
+  padding: 30px 0 30px 0;
+}
+
+#about h2 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #77a466;
+  text-transform: uppercase;
+  padding: 10px 0 10px 0;
+  margin-left: 30px;
+}
+
+#about p {
+  line-height: 30px;
+  margin: 10px 0 10px 30px;
+}
+
+/***** BOTTOM *****/
+
+#menu .third-width {
+  margin-left: 30px;
+  border-top: 1px solid #eee;
+  padding-top: 10px;
+}
+
+#menu h3, #reviews h3, #contact h3 {
+  text-transform: uppercase;
+  text-weight: bold;
+}
+
+#menu p {
+  width: 290px;
+  text-transform: capitalize;
+  padding-left: 0px;
+  height: auto;
+  line-height:15px;
+  font-weight: bold;
+  float: left;
+  color: #77a466;
+}
+
+#reviews .third-width {
+  margin: 0 auto;
+}
+
+#reviews {
+   width: 390px;
+   padding: 10px 10px 0 30px;
+   line-height: 25px;
+   height: auto;
+   float: left;
+   border-top: 1px solid #eee;
+   border-right: 1px solid #eee;
+   border-left: 1px solid #eee;
+}
+
+#contact .third-width{
+  margin: 0 auto;
+}
+
+#contact {
+  width: 320px;
+  padding-top: 10px;
+  padding-left: 50px;
+  line-height: 25px;
+  height: auto;
+  float: left;
+  border-top: 1px solid #eee;
+}
+
+/***** FOOTER *****/
+
+footer h3 {
+  clear: both;
+  text-align: center;
+  text-transform: uppercase;
+  border-top: 1px solid #eee;
+  width: 1200px;
+  height: 80px;
+  font-size: 18px;
+  padding-top: 25px;
+}
+
+footer h3 span {
+  font-family: 'Wisdom Script Regular', serif;
+  color: #77a466;
+  text-transform: none;
+  }
