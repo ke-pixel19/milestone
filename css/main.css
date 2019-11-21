@@ -1,0 +1,211 @@
+/***** BASE STYLES *****/
+
+body {
+  font-family: 'Cabin', sans-serif;
+  color: #ffffff;
+  background-color: #000000;
+}
+
+/*****GRID*****/
+
+.full-width {
+   width: 1200px;
+   margin: 0 auto;
+}
+.half-width {
+  width: 600px;
+  float: left;
+
+}
+.third-width {
+  width: 400px;
+  float: left;
+}
+/***** HEADER *****/
+
+header {
+  width: 500px;
+  height: 100px;
+}
+
+header h1 {
+  font-family: 'Cabin', sans-serif;
+  font-size: 30px;
+  margin: 28px 0px 0px 45px;
+}
+
+nav  {
+  float: right;
+  margin: 15px 0px 0px 0px;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: bold;
+  padding-right: 40px;
+  text-decoration: none;
+}
+
+.top {
+  height: 700px;
+  border-bottom: 2px solid #ffffff;
+  margin: 0px;
+  background: url('../img/car2.png');
+  background-position: 40% 60%;
+}
+
+.top p {
+  font-size: 64px;
+  padding: 245px 0px 0px 100px;
+  margin-top: 0px;
+}
+
+.top p span {
+  color: #fa0075;
+}
+
+/***** PORTFOLIO *****/
+
+h2 {
+  color: #fa0075;
+  font-size: 36px;
+  text-align: center;
+}
+
+h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  margin: 0px;
+}
+
+h4 {
+  font-weight: normal;
+  margin-top: 3px;
+}
+
+img.rogue {
+  border: 2px solid #ffffff;
+  height: 349px;
+  margin: 0px 0px 0px 70px;
+  width: 550px;
+}
+
+.entry {
+  float: right;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  height: 349px;
+  margin: -354px 70px 20px 0px;
+  width: 500px;
+}
+
+.entry p {
+  margin-top: 20px;
+}
+
+.entry_2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  height: 349px;
+  margin: 50px 0px 0px 70px;
+  text-align: right;
+  width: 550px;
+  clear: both;
+}
+
+ img.jubilee {
+   border: 2px solid #ffffff;
+   float: right;
+   height: 349px;
+   margin: -353px 70px 0px 0px;
+   width: 500px;
+ }
+
+ img.holstee {
+   border: 2px solid #ffffff;
+   height: 349px;
+   margin: 50px 0px 0px 70px;
+   width: 550px;
+ }
+
+ .entry_3 {
+   float: right;
+   font-family: 'Roboto', sans-serif;
+   font-size: 18px;
+   height: 349px;
+   margin: -358px 70px 0px 0px;
+   width: 500px;
+ }
+
+/*****ABOUT ME*****/
+
+ img.profile {
+   border: 2px solid #ffffff;
+   float: right;
+   height: 325px;
+   margin: 50px 100px 0px 0px;
+   width: 235px;
+  }
+
+.image_4 {
+  background-color: #086666;
+  border: 2px solid #ffffff;
+  height: 430px;
+  margin: 0px 25px 0px 25px;
+  width: 1200px;
+}
+
+ .image_4 p {
+  font-size: 18px;
+  margin: 0px 0px 0px 100px;
+  padding-top: 84px;
+}
+/***** FOOTER*****/
+
+#hire p {
+  font-size: 25px;
+  margin: 60px 0px 37px 147px;
+  width: 300px;
+}
+
+.email {
+  color: #ffffff;
+  font-size: 20px;
+  margin: 0px 0px 0px 101px;
+}
+
+#follow p {
+  font-size: 25px;
+  margin: 59px 0px 0px 138px;
+}
+
+#follow ul li {
+  display: inline-block;
+}
+
+#follow ul img {
+  padding: 12px;
+  margin-left: -12px;
+}
+
+#meet p {
+  font-size: 25px;
+  margin: 60px 0px 0px 20px;
+  width: 275px;
+  float: right;
+}
+#indy p {
+  font-size: 20px;
+  margin: 37px 32px 0px 0px;
+  width: 275px;
+  float: right;
+}
+ footer p {
+   clear: both;
+   margin: 400px 0px 0px 500px;
+ }
